@@ -1,0 +1,116 @@
+body {
+  background-color: #c1a083;
+}
+
+/* ELEMENT SELECTOR */
+h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  color: #2e563c;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: #2e563c;
+  font-size: 30px;
+}
+
+h4 {
+  text-decoration: underline;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  color: #2e563c;
+  font-size: 20px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-style: double;
+}
+
+p {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* CLASS SELECTOR */
+
+div.center {
+  text-align: center;
+}
+
+div > p {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  margin-left: 50px;
+  margin-right: 25px;
+  float: left;
+  width: 300px;
+  height: 300px;
+  border-style: double;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+
+.clip {
+  width: 516px;
+  height: 316px;
+}
+
+/* ANCHOR SELECTORS */
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+div.container {
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.land {
+    text-align: center;
+}
+
+a{
+  color: black;
+  font-family:'Prompt', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#next {
+  padding-left: 620px;
+}
+
+#next1 {
+  padding-left: 890px;
+}
+
+#previous {
+  text-align: left;
+}
