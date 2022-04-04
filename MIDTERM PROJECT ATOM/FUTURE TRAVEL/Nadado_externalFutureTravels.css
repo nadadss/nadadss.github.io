@@ -1,0 +1,26 @@
+body {
+  background-color: #c1a083;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+
+.container {
+  text-align: center;;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#anchor {
+  clear: left;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+}

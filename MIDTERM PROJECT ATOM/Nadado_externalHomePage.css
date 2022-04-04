@@ -2,12 +2,21 @@ body {
 	background-color: #f0f0e9;
 }
 
+/* ELEMENT SELECTOR */
+
 h2{
 	text-align: center;
 	color: #26514a;
 	font-family: 'Prompt', sans-serif;
 	font-size: 50px;
 }
+
+a {
+	text-decoration:none;
+	color: #f0f0e9;
+}
+
+/* CLASS SELECTOR */
 
 
 div.main {
@@ -38,18 +47,22 @@ div.topg {
 	font-size: 20px;
 }
 
-#sheesh {
-	background-color:#c1a083;
-	border-radius: 15px;
-	text-align: center;
-}
-
 div.midleft{
 	display:grid;
 	grid-template-columns: 260px;
 	grid-template-rows: 320px;
 	grid-gap: 22px;
 }
+
+
+/* ID SELECTOR */
+
+#sheesh {
+	background-color:#c1a083;
+	border-radius: 15px;
+	text-align: center;
+}
+
 
 #fourth {
 	grid-row: 2/5;
@@ -72,10 +85,7 @@ div.midleft{
 	text-align: center;
 }
 
-a {
-	text-decoration:none;
-	color: #f0f0e9;
-}
+/* PSEUDOCLASS SELECTOR */
 
 a:hover {
 	text-decoration:none;

@@ -1,0 +1,55 @@
+body {
+  background-color: #c1a083;
+}
+
+
+
+/* ELEMENT SELECTORS */
+h1 {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2{
+  text-decoration: underline;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+}
+
+img {
+  float: left;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #26514a;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+/* CLASS SELECTORS */
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.clear {
+  clear: left;
+}
+
+/* ID SELECTOR */
+#paragraph {
+  text-align: justify;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+
+#anchor {
+  clear: left;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+}

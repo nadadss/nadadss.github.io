@@ -1,0 +1,65 @@
+body {
+  #c1a083;
+  #26514a;
+  background-color: #c1a083;
+}
+
+/* ELEMENT SELECTOR */
+
+h1 {
+  font-family: 'Roboto Slab', Serif;
+  text-align: center;
+  font-size: 50px;
+  color:#c1a083;
+}
+
+h3 {
+  font-family: 'Roboto Slab', Serif;
+  text-align: center;
+  font-size: 25px;
+  color:#c1a083;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* PARENT CHILD SELECTOR */
+div > h1 {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #26514a;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 600px;
+}
+
+div > h3 {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #26514a;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 400px;
+}
+
+/* ID SELECTORS */
+
+#ordered {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 18px;
+}
+
+#anchor {
+  clear: left;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+}
