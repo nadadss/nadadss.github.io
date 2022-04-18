@@ -1,0 +1,109 @@
+/* ID SELECTORS */
+
+#regform {
+    font-family: Arial, Helvetica, san-serif;
+    border-collapse: collapse;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    width: 100%;
+  }
+  
+  #regform th, #regform td{
+    /*border: 1px solid black;*/
+    padding: 4px;
+  }
+  
+  #subject {
+    vertical-align: top;
+    
+  }
+  
+  #schedule {
+    text-align: right;
+  }
+
+  #center {
+    text-align: center;
+  }
+  
+  
+  #total {
+    border-bottom: 2px solid black;
+
+  }
+
+  #heading {
+    padding-left: 5em;
+    padding-right:5em;
+    width: 100%;
+  }
+  
+  /* ELEMENT/TAG SELECTORS */
+  h1 {
+    font-family: Arial;
+  }
+
+  td {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 200px;
+    float: left;
+  }
+
+  div {
+    overflow-x: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* CLASS SELECTOR */
+
+  th.section {
+    color:red;
+  }
+
+  tr.category {
+    background-color: red;
+    color: white;
+  }
+
+  .logo {
+    max-width: 100%;
+    height: 200px;
+    }
+    
+  .pads{
+    padding: 3em;
+    text-align: left;
+    line-height: 1.5em;
+    color: red;
+    font-weight: bold;
+  }
+    
+  .main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3em;
+    padding-right: 2em;
+    color: red;
+    font-weight: bold;
+    font-size: 40px
+  }
+    
+  .pads_p1{
+    padding: 3em;
+    padding-left: 12em;
+    text-align: left;
+    line-height: 1.5em;
+    color: red;
+    font-weight: bold;
+  }
+    
+  .pads_p2{
+    padding: 3em;
+    text-align: left;
+    line-height: 1.5em;
+    font-weight: bold;
+  }
