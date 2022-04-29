@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Group 4/Group Name - Names separated by comma if more than 1 author">
+        <meta name="Description" content="Website Name - Webpage">
+
+        <title> Order Form </title>
+
+        <link rel ="icon" href="NADADO_IMAGES_ITCD/orderform.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href = "NADADO_IMAGES_ITCD/Nadado_externalForms_ITCD.css">
+
+    </head>
+    <body>
+
+      <form action="" method = "post">
+        <h2> COOKING MOMMA </h2>
+
+        <fieldset>
+
+            <legend class = "center"> PERSONAL INFORMATION </legend>
+            <table>
+
+              <tr >
+                <td class = "left"> <label for = "fullname"> Name: </label> </td>
+                <td> <input type="text" name = "fullname" id = "fullname" placeholder = "Full Name"> </td>
+              </tr>
+
+              <tr>
+                <td class = "left"> <label for = "address"> Address: </label> </td>
+                <td> <input type = "text" name = "address" id = "address" placeholder = "Complete Address"> </td>
+              </tr>
+
+              <tr>
+                <td class = "left"> <label for = "contacts"> Contact No.: </label> </td>
+                <td> <input type = "text" name = "contacts" id = "contacts" placeholder = "Contact Number"> </td>
+              </tr>
+
+              <tr>
+                <td class = "left"> <label for = "shortnote"> Note: </label> </td>
+                <td> <textarea name = "shortnote" id = "shortnote" cols = "30" rows = "10"></textarea> </td>
+              </tr>
+            </table>
+
+          </fieldset>
+
+        <h2> ORDER FORM </h2>
+
+        <fieldset>
+
+            <legend class = "center"> FOOD CHOICES </legend>
+
+            <table>
+
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/burger.png" alt=""> <br> Burger </td>
+                <td> <img src="NADADO_IMAGES_ITCD/PASTA/pasta.png" alt=""> <br> Pasta </td>
+              </tr>
+
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/FRIES/french fries.png" alt=""> <br> Fries </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BEVERAGES/drinks.png" alt=""> <br> Beverage </td>
+              </tr>
+
+            </table>
+          </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend class = "center"> CUSTOMIZE YOUR BURGER </legend>
+            <table>
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/white bun.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/wheat.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/honey.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/sugar free.png" alt=""> </td>
+              </tr>
+
+              <tr>
+                <td> <input type = "radio" id = "white" name = "bun" value = "White Bun">
+                  <label for = "white"> White Bun </label> </td>
+
+                <td> <input type = "radio" id = "wheat" name = "bun" value = "Wheat Bun">
+                  <label for = "wheat"> Wheat Bun </label> </td>
+
+                <td> <input type = "radio" id = "honey" name = "bun" value = "Honey Oat">
+                  <label for = "honey"> Honey Oat </label> </td>
+
+                <td> <input type = "radio" id = "sugar" name = "bun" value = "Sugar Free">
+                  <label for = "sugar"> Sugar Free </label> </td>
+              </tr>
+
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/single patty.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/single patty.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/bacon.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/cheese.png" alt=""> </td>
+              </tr>
+
+              <tr>
+                <td> <input type="checkbox" id = "single" name = "single" value = "Single Patty">
+                  <label for = "single"> Single Patty </label> </td>
+
+                <td> <input type="checkbox" id = "double" name = "double" value = "Double Patty">
+                  <label for = "double"> Double Patty </label> </td>
+
+                <td> <input type="checkbox" id = "bacon" name = "bacon" value = "Bacon">
+                  <label for = "bacon"> Bacon </label> </td>
+
+                <td> <input type="checkbox" id = "cheese" name = "cheese" value = "Cheese">
+                  <label for = "cheese"> Cheese </label> </td>
+
+              </tr>
+
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/coleslaw.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/tomato.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/cucumber.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BURGER/onion.png" alt=""> </td>
+              </tr>
+
+              <tr>
+                <td> <input type="checkbox" id = "coleslaw" name = "coleslaw" value = "Coleslaw">
+                  <label for = "coleslaw"> Coleslaw </label> </td>
+
+                <td> <input type="checkbox" id = "tomato" name = "tomato" value = "Tomato">
+                  <label for = "tomato"> Tomato </label> </td>
+
+                <td> <input type="checkbox" id = "cucumber" name = "cucumber" value = "Cucumber">
+                  <label for = "cucumber"> Cucumber </label> </td>
+
+                <td> <input type="checkbox" id = "onion" name = "onion" value = "Onion">
+                  <label for = "onion"> Onion </label> </td>
+              </tr>
+
+              <tr>
+
+                <td>  </td>
+                <td>  </td>
+
+              </tr>
+
+              <tr>
+                <td></td>
+                <td> <label for = "burgerqty"> Quantity: </label> </td>
+                <td> <input type = "number" id = "burgerqty" name = "burgerqty" min = "0" max = "20"></td>
+              </tr>
+
+            </table>
+          </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend class = "center"> CUSTOMIZE YOUR PASTA </legend>
+            <table>
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/PASTA/penne.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/PASTA/amatriciana.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/PASTA/carbonara.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/PASTA/pasta.png" alt=""> </td>
+              </tr>
+
+              <tr>
+
+                <td> <input type = "radio" id = "penne" name = "sauce" value = "Penne all’Arrabbiata">
+                  <label for = "penne"> Penne all’Arrabbiata </label> </td>
+
+                <td> <input type = "radio" id = "amatriciana" name = "sauce" value = "Bucatini all’Amatriciana">
+                  <label for = "amatriciana"> Bucatini all’Amatriciana </label> </td>
+
+                <td> <input type = "radio" id = "carbonara" name = "sauce" value = "Carbonara">
+                  <label for = "carbonara"> Carbonara </label> </td>
+
+                <td> <input type = "radio" id = "pesto" name = "sauce" value = "Pesto">
+                  <label for = "pesto"> Pesto </label> </td>
+
+              </tr>
+
+              <tr>
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td>  </td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td> Additionals: </td>
+
+                <td class = "left"> <input type="checkbox" id = "cheese" name = "extras1" value = "Extra Cheese">
+                  <label for = "cheese"> Extra Cheese </label>
+                  <br>
+                <input type="checkbox" id = "saws" name = "extras4" value = "Extra Sauce">
+                  <label for = "saws"> Extra Sauce </label> </td>
+
+                <td> </td>
+
+              </tr>
+
+              <tr>
+                <td>  </td>
+                <td>  </td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td> <label for = "burgerqty"> Quantity <br> (per box): </label> </td>
+                <td> <input type = "number" id = "burgerqty" name = "burgerqty" min = "0" max = "20"></td>
+              </tr>
+
+            </table>
+          </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend class = "center"> CUSTOMIZE YOUR FRIES </legend>
+            <table>
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/FRIES/thick.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/FRIES/thin.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/FRIES/twister.png" alt=""> </td>
+              </tr>
+
+              <tr>
+
+                <td> <input type = "radio" id = "thick" name = "kind" value = "Thick Cut">
+                  <label for = "thick"> Thick Cut </label> </td>
+
+                <td> <input type = "radio" id = "thin" name = "kind" value = "Thin Cut">
+                  <label for = "thin"> Thin Cut </label> </td>
+
+                <td> <input type = "radio" id = "twister" name = "kind" value = "Twister">
+                  <label for = "twister"> Twister </label> </td>
+
+              </tr>
+
+              <tr>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+              </tr>
+
+              <tr>
+
+                <td> <label for = "flavor">Flavors:</label></td>
+
+                <td class = "left">
+                  <input type="radio" id = "barbecue" name = "flavor" value = "Extra Cheese">
+                  <label for = "barbecue"> Barbecue </label>
+                  <br>
+                  <input type="radio" id = "ches" name = "flavor" value = "Extra Nuts">
+                  <label for = "ches"> Cheese </label>
+                  <br>
+                 <input type="radio" id = "sourncream" name = "flavor" value = "Extra Chicken">
+                  <label for = "sourncream"> Sour & Cream </label> </td>
+
+              </tr>
+
+              <tr>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+              </tr>
+
+              <tr>
+
+                <td> <label for = "frieses"> Sizes: </label> </td>
+
+                <td> <select name = "frieses" id = "frieses">
+                        <option value = "Small">Small</option>
+                        <option value = "Medium">Medium</option>
+                        <option value = "Large">Large</option>
+                     </select>
+                </td>
+
+              </tr>
+
+              <tr>
+
+                <td> <label for = "quantity"> Quantity: </label> </td>
+                <td> <input type = "number" id = "quantity" name = "quantity" min = "0" max = "20"></td>
+
+              </tr>
+
+
+
+            </table>
+          </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend class = "center"> CHOOSE YOUR BEVERAGE </legend>
+            <table>
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/BEVERAGES/milkshake.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BEVERAGES/orange.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BEVERAGES/lemonade.png" alt=""> </td>
+              </tr>
+
+              <tr>
+
+                <td> <input type = "radio" id = "shake" name = "beverage" value = "Milk Shake">
+                  <label for = "shake"> Milk Shake </label> </td>
+
+                <td> <input type = "radio" id = "orange" name = "beverage" value = "Orange Juice">
+                  <label for = "orange"> Orange Juice </label> </td>
+
+                <td> <input type = "radio" id = "lemonade" name = "beverage" value = "Lemonade">
+                  <label for = "lemonade"> Lemonade </label> </td>
+
+              </tr>
+
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/BEVERAGES/MUG.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BEVERAGES/coke.png" alt=""> </td>
+                <td> <img src="NADADO_IMAGES_ITCD/BEVERAGES/water.png" alt=""> </td>
+              </tr>
+
+              <tr>
+
+                <td> <input type="radio" id = "mug" name = "beverage" value = "MUG Root Beer">
+                  <label for = "mug"> MUG Root Beer </label> </td>
+
+                <td> <input type="radio" id = "coke" name = "beverage" value = "Cola">
+                  <label for = "coke"> Cola </label> </td>
+
+                <td> <input type="radio" id = "water" name = "beverage" value = "Bottle of Water">
+                  <label for = "water"> Bottle of Water </label> </td>
+
+              </tr>
+
+              <tr>
+
+                <td> <label for = "drinks"> Drink Sizes: </label> </td>
+
+                <td> <select name = "drinks" id = "drinks">
+                        <option value = "Small">Small</option>
+                        <option value = "Medium">Medium</option>
+                        <option value = "Large">Large</option>
+                     </select>
+                </td>
+
+              </tr>
+
+              <tr>
+
+                <td> <label for = "quantity"> Quantity: </label> </td>
+                <td> <input type="number" id = "quantity" name = "quantity" min = "0" max = "20"></td>
+
+              </tr>
+
+            </table>
+          </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend class = "center"> CHECK OUT </legend>
+            <table>
+
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/TRANSACTION/delivery.png" alt=""> </td>
+                <td> <input type = "radio" id = "delivery" name = "transaction" value = "Delivery">
+                    <label for = "delivery"> Delivery </label> </td>
+              </tr>
+
+              <tr>
+                <td> <img src="NADADO_IMAGES_ITCD/TRANSACTION/pick up.png" alt=""> </td>
+                <td> <input type = "radio" id = "pick up" name = "transaction" value = "Pickup">
+                    <label for = "pick up"> Pick up </label> </td>
+              </tr>
+
+              <tr>
+                <td> <label for="feedback"> Order form feedback: </label></td>
+                <td> <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea> </td>
+              </tr>
+
+              <tfoot>
+                <tr>
+                  <th colspan = "4"> <input type="submit" id = "submit" value = "Submit Form"></th>
+                </tr>
+
+                <tr>
+                  <th colspan = "4"> <input type="reset" id = "reset" value = "Clear Form"></th>
+                </tr>
+              </tfoot>
+            </table>
+          </fieldset>
+
+      </form>
+
+
+
+    </body>
+</html>
